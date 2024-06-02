@@ -1,10 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Christopher Roelle | ePortfolio</title>
-  </head>
-  <body>
-    <h1>Christopher Roelle's ePortfolio Page</h1>
-    <p>Welcome!</p>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christopher Roelle's ePortfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        .project {
+            background-color: #fff;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .project h2 {
+            margin-top: 0;
+        }
+        .project img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+        .project-links {
+            margin-top: 1rem;
+        }
+        .project-links a {
+            text-decoration: none;
+            color: #007BFF;
+            margin-right: 1rem;
+            transition: color 0.3s ease;
+        }
+        .project-links a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My GitHub ePortfolio</h1>
+    </header>
+    <div class="container">
+        <div class="project">
+            <h2>Appointment Manager - Java to C++ Port</h2>
+            <p>Originally developed in Java for Unit Testing, I ported the code to C++, and added Appointment Management Services.</p>
+            <img src="screenshot.path" alt="Appointment Manager Port">
+            <div class="project-links">
+                <a href="link" target="_blank">Original Project</a>
+                <a href="link" target="_blank">Enhanced Project</a>
+            </div>
+        </div>
+        <div class="project">
+            <h2>C++ | OpenGL - 3D Scene</h2>
+            <p>Written in C++ using the OpenGL Graphics API, this is a 3D scene completely generated programatically.</p>
+            <img src="screenshot.path" alt="OpenGL 3D Scene">
+            <div class="project-links">
+                <a href="link" target="_blank">Original Project</a>
+                <a href="link" target="_blank">Enhanced Project</a>
+            </div>
+        </div>
+        <div class="project">
+            <h2>Inventorio - Inventory Management App for Android</h2>
+            <p>Inventory Management for Android devices. Boasts support for low-stock notifications, product tracking, and more!</p>
+            <img src="screenshot.path" alt="Inventorio">
+            <div class="project-links">
+                <a href="link" target="_blank">Original Project</a>
+                <a href="link" target="_blank">Enhanced Project</a>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
