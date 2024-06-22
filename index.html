@@ -20,7 +20,8 @@
         }
         .container {
             width: 80%;
-            max-width: 1200px;
+            min-width: 400px;
+            max-width: 900px;
             margin: 0 auto;
             padding: 2rem 0;
         }
@@ -106,6 +107,11 @@
             color: #007BFF;
             margin-right: 1rem;
             transition: color 0.3s ease;
+        }
+        @media screen and (max-width: 800px) {
+            .project-links a{
+                display: flex;
+            }
         }
         .project-links a:hover {
             color: #0056b3;
